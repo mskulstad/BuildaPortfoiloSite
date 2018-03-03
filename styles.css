@@ -1,0 +1,66 @@
+
+html {
+  flex-wrap: wrap;
+  font-family: "Muli", sans-serif;
+  color: black;
+}
+
+/* HEADER */
+header {
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin: 20px 100px 0 0;
+
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Lobster";
+}
+
+/* MAIN PAGE */
+.main-img {
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  position: relative;
+  height: 500px;
+  width: 700px;
+  right: 100px;
+}
+
+.featured-images {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  float: right;
+  right: 70px;
+  height: 200px;
+  width: 280px;
+}
+
+#featured {
+  float: right;
+  flex-wrap: wrap;
+  display: block;
+}
+
+/* LINKS */
+
+
+/* FOOTER */
+
+/* OTHER ADJUSTMENTS */
+hr {
+  background-color: black;
+  display: block;
+  margin-right: 100px;
+  width: 750px;
+  height: 2px;
+}
